@@ -28,15 +28,15 @@ const links = [
 
 <template>
   <UContainer>
-    <UHorizontalNavigation
-      :links="links"
-      class="border-b border-gray-200 dark:border-gray-800"
-    />
-    <div class="p-2 border rounded border-gray-700 h-full">
+    <UHorizontalNavigation :links="links" class="border-b border-gray-200 dark:border-gray-800" />
+    <div class="p-2">
       <slot />
     </div>
     <footer>
-      <Ucontainer> made with ❤ and <UIcon name="i-logos-nuxt" /> </Ucontainer>
+      <UContainer class="text-center"> made with ❤ and
+        <UIcon name="logos:nuxt-icon" dynamic />
+        <UIcon name="logos:vue" dynamic />
+      </UContainer>
     </footer>
   </UContainer>
 </template>
