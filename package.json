@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.13.0",
-    "nuxt": "^3.10.1"
+    "nuxt": "^3.10.1",
+    "tailwindest": "^2.3.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.7.4",
